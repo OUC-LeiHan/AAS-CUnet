@@ -1,8 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Author: Taurus_Moon
-# @Last Modified by:   Taurus_Moon
-# @Date:   2019-12-05 15:41:30
-# @Last Modified time: 2020-01-12 11:31:28
 # @Description : Training and saving model
 
 import sys
