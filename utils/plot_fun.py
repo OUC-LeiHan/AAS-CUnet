@@ -51,6 +51,6 @@ def plot_image(data,error,filename,data_location,cla="T2M"):
 
 	plt.savefig(filename,dpi=300)	
 	plt.close()
-
+    
 
 
