@@ -11,12 +11,12 @@ transforms = transforms.Compose([transforms.ToTensor()])
 
 
 class Training_Dataset(Dataset):
-###
 
-pass xxx
-
-###
-
-    def __len__(self):
-        return self.Total
+    def __init__(self,Data_path,State,Size,
+                 min_t2m,max_t2m,Transforms=None,
+                 geo_path):
+    
+    #prepare your training dataset here.
+    
+    
 
