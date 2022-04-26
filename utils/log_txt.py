@@ -1,9 +1,4 @@
 # -*- coding: utf-8 -*-
-# @Author: Taurus_Moon
-# @Date:   2019-04-16 08:44:59
-# @Last Modified by:   Taurus_Moon
-# @Last Modified time: 2019-04-16 09:13:06
-# @Version : 1.0
 # @Description : Logging
 
 
