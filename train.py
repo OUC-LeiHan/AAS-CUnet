@@ -153,7 +153,7 @@ def train_net(net,epochs=5,batch_size=1,
     #min_index = np.argmin(test_Loss_List)
     #remove_pth(min_index)
 
-#配置命令行参数解析，可使用命令行修改训练参数
+#Configure command line parameters and modify training parameters
 def get_args():
     parser = OptionParser()
     parser.add_option("-e", "--epoch", dest="epochs", default=50, type="int",
