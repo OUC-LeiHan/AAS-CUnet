@@ -16,6 +16,7 @@ class CUnet(nn.Module):
         self.down2 = down(128, 256) #12*12
         self.down3 = down(256, 512) #6*6
         self.down4 = down(512, 512) #3*3
+        
         # Build decoding module
         self.up1 = up(1024,256,512) #6*6
         self.up2 = up(512, 128,256) #12*12
